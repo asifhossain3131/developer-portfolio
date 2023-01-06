@@ -13,7 +13,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 nav li{
     list-style: none;
@@ -148,3 +148,31 @@ color: #757575;
         margin-bottom: 30px;
         color: #474747;
     }
+    .section-btn{
+        text-align: center;
+    }
+    /* contact styles */
+    .contact{
+        display: flex;
+        background-color: 
+        #FFF8F3;
+        gap: 130px;
+padding: 130px 150px;
+
+    }
+    .contact .section-title{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+.contact .description{
+    margin-bottom: 30px;
+}
+.form-item{
+    margin-bottom: 30px;
+    width: 461px;
+height: 64px; border: none;
+}
+textarea{
+    width: 461px;
+height: 180px; border: none; margin-bottom: 24px;
+}
